@@ -35,7 +35,7 @@ def main_page():
     st.markdown('<div class="center">', unsafe_allow_html=True)
     
     # Add image and title
-    st.image(r"C:\Users\M.V.Vindhya\OneDrive\Desktop\WEB APP\Sign Language UI.png", use_container_width=True)
+    st.image(r"assets/Sign Language UI.png", use_container_width=True)
     st.title("American Sign Language")
 
     # Create a Streamlit button
@@ -48,7 +48,7 @@ def main_page():
 def next_page():
     st.title("Next Page")
     st.write("You have successfully navigated to the next page!")
-    st.image(r"C:\Users\M.V.Vindhya\OneDrive\Desktop\WEB APP\American Sign Language Signs.jpg", use_container_width=True)
+    st.image(r"assets/American Sign Language Signs.jpg", use_container_width=True)
 
 # Set the page layout
 st.set_page_config(page_title="Sign Language WebApp", layout="centered")
